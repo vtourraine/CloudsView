@@ -6,9 +6,18 @@ _`UIView` subclass displaying clouds floating by._
 
 ## How to use
 
-You need to add an image called `Cloud` to your app’s asset catalog (i.e. the image is **not** included in this library).
+First, you need to add an image called `Cloud` to your app’s asset catalog (i.e. the image is **not** included in this library).
 
 Just add a `CloudsView` instance to your view hierarchy, like a regular `UIView`. Then call `startAnimation()` to start the animation loop.
+
+## Future improvements
+
+Feel free to send in a pull request to fix bugs and refine this library. For instance:
+
+- [ ] Easy customization (cloud size, number of clouds, etc)
+- [ ] Fix cloud disappearence when the view size changes during the animation
+- [ ] Add parallax effect (clouds at the bottom moving faster then clouds at the top)
+- [ ] Generate random cloud shapes
 
 ## Requirements
 
